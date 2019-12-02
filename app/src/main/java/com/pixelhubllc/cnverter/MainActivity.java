@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         TimeConversion timeConversion = new TimeConversion();
-        Log.e("Converted:", timeConversion.time("1","minute","hour"));
+        Log.e("Converted:", timeConversion.time("6","day","month"));
 
     }
 }
